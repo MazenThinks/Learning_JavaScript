@@ -8,10 +8,12 @@
 <p id="one"></p>
 
 <script>
-function myfunc(x , z) {
-    return x * z;
+var x = myfunc(4 , 5)
+
+function myfunc(y,z) {
+    return y + z
 }
-document.getElementById("one").innerHTML = myfunc(4 , 5)
+document.getElementById("one").innerHTML = x
 
 </script>
 </body>
