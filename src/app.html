@@ -4,16 +4,16 @@
 <title>Learning JavaScript</title>
 </head>
 <body>
-
-<p id="one"></p>
+<h2>Oops I made a huge mistake .. click the button to correct it</h2>
+<button onclick="aFunc()">I'M THE BUTTON CLICK ME QUICKLY</button>
+<p id="one">SAUSKE is the coolest VILLAIN in Naruto Series</p>
 
 <script>
-var x,y;
-x = "PAIN is the strongest VILLAIN in naruto"
-y = x.replace("PAIN" , "MADARA")
-document.getElementById("one").innerHTML = y;
+var txt = "PAIN is the coolest VILLAIN in naruto Series";
+
+function aFunc() {
+document.getElementById("one").innerHTML = txt.replace("PAIN","MADARA");
+}
 </script>
-
-
 </body>
 </html>
