@@ -5,11 +5,15 @@
 </head>
 <body>
 
-<p id="one"></p>
+<p id="one" onmouseover="aFunc()">blablablablabla 
+Get your mouse over me to get more blablabla</p>
 <script>
-var txt = "Imma15CharsText"
-document.getElementById("one").innerText = txt.length;
+function aFunc() {
+document.getElementById("one").innerHTML =
+"More blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla"
+}
 </script>
+
 
 </body>
 </html>
