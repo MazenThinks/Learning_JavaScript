@@ -4,9 +4,14 @@
 <title>Learning JavaScript</title>
 </head>
 <body>
-<button onclick="document.getElementById('one').innerHTML=Date()">The time is ?</button>
+<h2>Click the button to display date and time</h2>
+<button onclick="displayTime()">I'm the button</button>
 <p id="one"></p>
 <script>
+function displayTime() {
+document.getElementById("one").innerHTML = Date();
+}
 </script>
+
 </body>
 </html>
